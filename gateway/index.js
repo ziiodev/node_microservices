@@ -12,5 +12,5 @@ app.use('/shopping', proxy('http://localhost:8003'))
 app.use('/', proxy('http://localhost:8002'))
 
 app.listen(8000, () => {
-  console.log(`Gateway listening to port 8000`)
+  console.log(`Gateway is listening to Port 8000`)
 })
